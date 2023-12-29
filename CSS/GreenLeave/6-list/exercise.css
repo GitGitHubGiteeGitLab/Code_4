@@ -1,0 +1,13 @@
+#exercise{
+    list-style-type: none;
+
+}
+
+#exercise a{
+   text-decoration: none;
+   color: #FFC0CB;
+}
+
+#img{
+    list-style-image: url(./img.png);
+}

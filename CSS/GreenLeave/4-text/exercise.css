@@ -1,0 +1,18 @@
+#p1{
+    font-size: 14px;
+    text-indent: 28px;
+
+}
+
+#p1 span{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#p2{
+    font-size: 14px;
+    font-family: "Times New Roman";
+    text-indent: 28px;
+    text-transform: uppercase;
+    
+}

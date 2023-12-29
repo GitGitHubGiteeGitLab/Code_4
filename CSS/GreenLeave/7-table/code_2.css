@@ -1,0 +1,9 @@
+table, th, td{
+    border: 1px solid silver;
+}
+
+table{
+    /* border-spacing: 8px;*/
+     border-spacing: 0px;
+    /* border-collapse: collapse; */
+}

@@ -1,0 +1,19 @@
+#father{
+    color:red;
+}
+
+.box{
+    color:blue;
+}
+
+p{
+    color:green;
+}
+
+#mother span{
+    color:lightsalmon;
+}
+
+#father, .box, p, #mother span{
+    color:blueviolet;
+}
