@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,td{
+            border: 1px solid black;
+            /* border-collapse: collapse; */
+        }
+        table{
+            /* border-collapse: collapse; */
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>考试成绩表</caption>
+        <tr>
+            <th>姓名</th>
+            <th>语文</th>
+            <th>数学</th>
+            <th>英语</th>
+        </tr>
+
+        <tr>
+            <td>小明</td>
+            <td>80</td>
+            <td>80</td>
+            <td>80</td>
+        </tr>
+
+        <tr>
+            <td>小红</td>
+            <td>90</td>
+            <td>90</td>
+            <td>90</td>
+        </tr>
+
+        <tr>
+            <td>小杰</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+        </tr>
+    </table>
+
+    <table>
+        <thead>
+            <tr>
+                <td>姓名：</td>
+                <td>小明</td>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="2">喜欢水果:</td>
+                <td>苹果</td>
+            </tr>
+
+            <tr>
+                <td>香蕉</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <thead>
+            <tr>
+                <td colspan="2">前端开发技术</td>
+            </tr>
+        </thead>
+
+        <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>CSS</td>
+                </tr>
+                
+                <tr>
+                    <td>JavaScript</td>
+                    <td>jQuery</td>
+                </tr>
+        </tbody>
+    </table>
+</body>
+</html>
