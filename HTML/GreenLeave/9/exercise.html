@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .father{
+            border: 1px dashed silver;
+            width: 400px;
+            height: 500px;
+           
+        }
+        .son{
+            text-indent: 28px;
+            font-size: 14px;
+        }
+
+        textarea {
+            margin-left: 28px;
+        }
+
+        /* .button{
+            display:block;
+            margin: 0 auto;
+        } */
+    </style>
+</head>
+<body>
+    <div class="father">
+        <form action="" method="post" class="form">
+            <div class="son">昵称：<input type="text">
+            </div>
+
+           <div class="son">密码：<input type="password">
+           </div>
+
+           <div class="son">
+            邮箱：<input type="text" name="" id=""> 
+                 <select name="" id="">
+                    <option value="">@qq.com</option>
+                    <option value="">@proton.me</option>
+                    <option value="">@gmail.com</option>
+                    <option value="">@outlook.com</option>
+                 </select>
+            </div>
+
+            <div class="son">
+                性别: 
+                <input type="radio" name="gender" value="男">男
+                <input type="radio" name="gender" value="女">女
+            </div>
+
+            <div class="son">
+                爱好：<input type="checkbox" name="hobby" id="" value="旅游">旅游
+                <input type="checkbox" name="hobby" id="" value="摄影">摄影
+                <input type="checkbox" name="hobby" id="" value="运动">运动
+            </div>
+
+            <div class="son">
+                个人简介：<br>
+                <textarea name="" id="" cols="30" rows="10" ></textarea>
+            </div>
+
+            <div class="son">
+                上传个人照片：<br>
+                <div class="son">
+                    <input type="file" name="" id="">
+                </div>
+            </div>
+            <hr>
+            <!-- <button type="button">立即注册</button> -->
+            <center><input type="button" value="立即注册" class="button"></center>
+        </form>
+    </div>
+</body>
+</html>
